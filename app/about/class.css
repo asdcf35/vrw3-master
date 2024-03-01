@@ -1,0 +1,28 @@
+.flx{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.ff{
+    height:25vh;
+}
+.flx-col{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.df{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.limitations-apply {
+    height: 1ch;
+}
+.fdf{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
