@@ -84,18 +84,14 @@ export default function App() {
                     <li>$7.25 working 13-15</li>
                     <li>$8.50 working 16- 18</li>
                     <li>
-                      $10 working 18-21 (if you are 13-18, and you are living
-                      alone, you will also fall into this category)
+                      $10 working 18-21 (or not living with parents) 
                     </li>
                     <li>$13 working 21 and older</li>
                   </ul>
                 </ModalBody>
                 <ModalFooter>
-                  <Button color="danger" variant="light" onPress={onClose}>
-                    Close
-                  </Button>
                   <Button color="primary" onPress={onClose}>
-                    Action
+                    Close
                   </Button>
                 </ModalFooter>
               </>
@@ -127,27 +123,13 @@ export default function App() {
             {(onClose) => (
               <>
                 <ModalHeader className="flex flex-col gap-1">
-                  Modal Title
+                  Reforming Education
                 </ModalHeader>
-                <ModalBody>
+                <ModalBody className="flex flex-row">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nullam pulvinar risus non risus hendrerit venenatis.
-                    Pellentesque sit amet hendrerit risus, sed porttitor quam.
+                    We should use the money we save from backing out of the Middle East to radically improve our education system
                   </p>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nullam pulvinar risus non risus hendrerit venenatis.
-                    Pellentesque sit amet hendrerit risus, sed porttitor quam.
-                  </p>
-                  <p>
-                    Magna exercitation reprehenderit magna aute tempor cupidatat
-                    consequat elit dolor adipisicing. Mollit dolor eiusmod sunt
-                    ex incididunt cillum quis. Velit duis sit officia eiusmod
-                    Lorem aliqua enim laboris do dolor eiusmod. Et mollit
-                    incididunt nisi consectetur esse laborum eiusmod pariatur
-                    proident Lorem eiusmod et. Culpa deserunt nostrud ad veniam.
-                  </p>
+ 
                 </ModalBody>
                 <ModalFooter>
                   <Button color="danger" variant="light" onPress={onClose}>
