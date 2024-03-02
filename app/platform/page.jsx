@@ -82,7 +82,12 @@ export default function App() {
                   </p>
                   <ul>
                     <li>$7.25 working 13-15</li>
-                    <li></li>
+                    <li>$8.50 working 16- 18</li>
+                    <li>
+                      $10 working 18-21 (if you are 13-18, and you are living
+                      alone, you will also fall into this category)
+                    </li>
+                    <li>$13 working 21 and older</li>
                   </ul>
                 </ModalBody>
                 <ModalFooter>
