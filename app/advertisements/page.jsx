@@ -720,17 +720,17 @@ export default function App() {
           {(onClose) => (
             <>
               <ModalHeader className="flex flex-col gap-1">
-                Increasing Wages - Step by Step
+                Arizona
               </ModalHeader>
               <ModalBody>
-                <p></p>
-                <p></p>
                 <p>
-                  Since we will not have unemployment checks, we will have a
-                  graduated minimum wage system. This will make our country's
-                  economy better. If the minimum wage is too low our country
-                  will be economically low and the homeless rate will increase.
-                  The graduated minimum wage system will be:
+                  We will be campaigning here because it will influence the West
+                  and it was considered a swing state in the last election. We
+                  want to make sure that we influence people all across the
+                  country.
+                </p>
+                <p>
+                  Kyle will be doing a speech and meet and greet in Arizona.
                 </p>
               </ModalBody>
               <ModalFooter>
@@ -840,7 +840,6 @@ export default function App() {
                   will be economically low and the homeless rate will increase.
                   The graduated minimum wage system will be:
                 </p>
-                
               </ModalBody>
               <ModalFooter>
                 <Button color="primary" onPress={onClose}>
