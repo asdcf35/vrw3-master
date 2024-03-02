@@ -37,6 +37,8 @@ export default function AboutPage() {
           things will work out in the end.
         </p>
       </div>
+      <source src="/about/video1.mp4" type="video/mp4"/>
+
       </div>
     </>
   );
