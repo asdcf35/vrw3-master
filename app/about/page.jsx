@@ -1,6 +1,8 @@
 import { title, subtitle } from "@/components/primitives";
 import { Divider } from "@nextui-org/react";
 import "./class.css";
+import video from './video1.mp4'
+
 export default function AboutPage() {
   return (
     <>
@@ -37,7 +39,7 @@ export default function AboutPage() {
           things will work out in the end.
         </p>
       </div>
-      <source src="/about/video1.mp4" type="video/mp4"/>
+      <source src={video} type="video/mp4"/>
 
       </div>
     </>
