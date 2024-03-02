@@ -745,7 +745,7 @@ export default function App() {
           {(onClose) => (
             <>
               <ModalHeader className="flex flex-col gap-1">
-                Increasing Wages - Step by Step
+              Michigan
               </ModalHeader>
               <ModalBody>
                 <p>
@@ -773,7 +773,7 @@ export default function App() {
           {(onClose) => (
             <>
               <ModalHeader className="flex flex-col gap-1">
-                Increasing Wages - Step by Step
+              North Carolina
               </ModalHeader>
               <ModalBody>
                 <p>
@@ -801,7 +801,7 @@ export default function App() {
           {(onClose) => (
             <>
               <ModalHeader className="flex flex-col gap-1">
-                Increasing Wages - Step by Step
+              Wisconsin
               </ModalHeader>
               <ModalBody>
                 <p>
@@ -825,7 +825,7 @@ export default function App() {
           {(onClose) => (
             <>
               <ModalHeader className="flex flex-col gap-1">
-                Increasing Wages - Step by Step
+              Pennsylvania
               </ModalHeader>
               <ModalBody>
                 <p>
