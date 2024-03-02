@@ -804,14 +804,12 @@ export default function App() {
                 Increasing Wages - Step by Step
               </ModalHeader>
               <ModalBody>
-                <p> We will be campaigning here because it is another northern state and it will be very influential to the north. It was also considered a swing state in the last election.
-
-</p>
                 <p>
-                  We will do a speech and a rally in Wisconsin
-
-
+                  We will be campaigning here because it is another northern
+                  state and it will be very influential to the north. It was
+                  also considered a swing state in the last election.
                 </p>
+                <p>We will do a speech and a rally in Wisconsin</p>
               </ModalBody>
               <ModalFooter>
                 <Button color="primary" onPress={onClose}>
@@ -830,14 +828,20 @@ export default function App() {
                 Increasing Wages - Step by Step
               </ModalHeader>
               <ModalBody>
-                <p></p>
-                <p></p>
                 <p>
                   Since we will not have unemployment checks, we will have a
                   graduated minimum wage system. This will make our country's
                   economy better. If the minimum wage is too low our country
                   will be economically low and the homeless rate will increase.
-                  The graduated minimum wage system will be:
+                  The graduated minimum wage system will be: We will be
+                  campaigning here because it was considered a swing state in
+                  the last election. It is also in the North Eastern United
+                  States and we want to vary where we visit but also influence
+                  other states in the North East.{" "}
+                </p>
+                <p>
+                  In Pennsylvania, Kyle will do a speech to help influence the
+                  North East.
                 </p>
               </ModalBody>
               <ModalFooter>
