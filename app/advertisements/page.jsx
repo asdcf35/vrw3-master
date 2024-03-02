@@ -719,9 +719,7 @@ export default function App() {
         <ModalContent>
           {(onClose) => (
             <>
-              <ModalHeader className="flex flex-col gap-1">
-                Arizona
-              </ModalHeader>
+              <ModalHeader className="flex flex-col gap-1">Arizona</ModalHeader>
               <ModalBody>
                 <p>
                   We will be campaigning here because it will influence the West
@@ -753,11 +751,10 @@ export default function App() {
                 <p></p>
                 <p></p>
                 <p>
-                  Since we will not have unemployment checks, we will have a
-                  graduated minimum wage system. This will make our country's
-                  economy better. If the minimum wage is too low our country
-                  will be economically low and the homeless rate will increase.
-                  The graduated minimum wage system will be:
+                  We will be campaigning here because it was a swing state in
+                  the last election and we want to make sure we travel to
+                  Northern states where our Ideas may not be accepted because we
+                  want to influence them.
                 </p>
               </ModalBody>
               <ModalFooter>
