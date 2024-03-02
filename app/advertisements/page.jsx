@@ -723,12 +723,8 @@ export default function App() {
                 Increasing Wages - Step by Step
               </ModalHeader>
               <ModalBody>
-                <p>
-
-                </p>
-                <p>
-                  
-                </p>
+                <p></p>
+                <p></p>
                 <p>
                   Since we will not have unemployment checks, we will have a
                   graduated minimum wage system. This will make our country's
@@ -736,7 +732,6 @@ export default function App() {
                   will be economically low and the homeless rate will increase.
                   The graduated minimum wage system will be:
                 </p>
-
               </ModalBody>
               <ModalFooter>
                 <Button color="primary" onPress={onClose}>
@@ -755,12 +750,8 @@ export default function App() {
                 Increasing Wages - Step by Step
               </ModalHeader>
               <ModalBody>
-                <p>
-
-                </p>
-                <p>
-                  
-                </p>
+                <p></p>
+                <p></p>
                 <p>
                   Since we will not have unemployment checks, we will have a
                   graduated minimum wage system. This will make our country's
@@ -768,7 +759,6 @@ export default function App() {
                   will be economically low and the homeless rate will increase.
                   The graduated minimum wage system will be:
                 </p>
-
               </ModalBody>
               <ModalFooter>
                 <Button color="primary" onPress={onClose}>
@@ -787,12 +777,8 @@ export default function App() {
                 Increasing Wages - Step by Step
               </ModalHeader>
               <ModalBody>
-                <p>
-
-                </p>
-                <p>
-                  
-                </p>
+                <p></p>
+                <p></p>
                 <p>
                   Since we will not have unemployment checks, we will have a
                   graduated minimum wage system. This will make our country's
@@ -800,7 +786,6 @@ export default function App() {
                   will be economically low and the homeless rate will increase.
                   The graduated minimum wage system will be:
                 </p>
-
               </ModalBody>
               <ModalFooter>
                 <Button color="primary" onPress={onClose}>
@@ -819,12 +804,8 @@ export default function App() {
                 Increasing Wages - Step by Step
               </ModalHeader>
               <ModalBody>
-                <p>
-
-                </p>
-                <p>
-                  
-                </p>
+                <p></p>
+                <p></p>
                 <p>
                   Since we will not have unemployment checks, we will have a
                   graduated minimum wage system. This will make our country's
@@ -832,7 +813,6 @@ export default function App() {
                   will be economically low and the homeless rate will increase.
                   The graduated minimum wage system will be:
                 </p>
-
               </ModalBody>
               <ModalFooter>
                 <Button color="primary" onPress={onClose}>
@@ -851,12 +831,8 @@ export default function App() {
                 Increasing Wages - Step by Step
               </ModalHeader>
               <ModalBody>
-                <p>
-
-                </p>
-                <p>
-                  
-                </p>
+                <p></p>
+                <p></p>
                 <p>
                   Since we will not have unemployment checks, we will have a
                   graduated minimum wage system. This will make our country's
@@ -864,7 +840,15 @@ export default function App() {
                   will be economically low and the homeless rate will increase.
                   The graduated minimum wage system will be:
                 </p>
-
+                <ul>
+                  <li>$7.25 working 13-15</li>
+                  <li>$8.50 working 16- 18</li>
+                  <li>
+                    $10 working 18-21 (if you are 13-18, and you are living
+                    alone, you will also fall into this category)
+                  </li>
+                  <li>$13 working 21 and older</li>
+                </ul>
               </ModalBody>
               <ModalFooter>
                 <Button color="primary" onPress={onClose}>
