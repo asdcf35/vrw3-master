@@ -23,6 +23,11 @@ import {
 import { title, subtitle } from "@/components/primitives";
 
 export default function App() {
+  const modalAZ = useDisclosure();
+  const modalPA = useDisclosure();
+  const modalMC = useDisclosure();
+  const modalWI = useDisclosure();
+  const modalMI = useDisclosure();
   return (
     <>
       <h1 className={title()}>Advertisements</h1>

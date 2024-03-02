@@ -16,6 +16,7 @@ import {
 
 export function Providers({ children, themeProps }) {
   const router = useRouter();
+  
 
 	return (
 		<NextUIProvider navigate={router.push}>
