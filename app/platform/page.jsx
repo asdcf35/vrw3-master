@@ -83,9 +83,7 @@ export default function App() {
                   <ul>
                     <li>$7.25 working 13-15</li>
                     <li>$8.50 working 16- 18</li>
-                    <li>
-                      $10 working 18-21 (or not living with parents) 
-                    </li>
+                    <li>$10 working 18-21 (or not living with parents)</li>
                     <li>$13 working 21 and older</li>
                   </ul>
                 </ModalBody>
@@ -125,11 +123,29 @@ export default function App() {
                 <ModalHeader className="flex flex-col gap-1">
                   Reforming Education
                 </ModalHeader>
-                <ModalBody className="flex flex-row">
+                <ModalBody className="w-[75%]">
                   <p>
-                    We should use the money we save from backing out of the Middle East to radically improve our education system
+                    We should use the money we save from backing out of the
+                    Middle East to radically improve our education system
                   </p>
- 
+                  <ul>
+                    <li>Having a higher rigor to teachers</li>
+                    <li>Universal Standard</li>
+                    <li>Minimum GPA: 3.5</li>
+                    <li>
+                      Removal of old outdated study techniques in - --- favor
+                      for high-efficiency study techniques like - Feynman Method
+                      and Bloom’s Taxonomy
+                    </li>
+                    <li>
+                      Allow for unique interests to flourish rather than get
+                      squished
+                    </li>
+                    <li>
+                      Culture Problem Solving, instead of Plug and Chug Higher
+                      payment to teachers
+                    </li>
+                  </ul>
                 </ModalBody>
                 <ModalFooter>
                   <Button color="danger" variant="light" onPress={onClose}>
