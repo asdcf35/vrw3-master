@@ -123,11 +123,12 @@ export default function App() {
                 <ModalHeader className="flex flex-col gap-1">
                   Reforming Education
                 </ModalHeader>
-              <ModalBody style={{width: 75%}}>
+              <ModalBody style={{width: "75%"}}>
                   <p>
                     We should use the money we save from backing out of the
                     Middle East to radically improve our education system
                   </p>
+                  
                 </ModalBody>
                 <ModalFooter>
                   <Button color="danger" variant="light" onPress={onClose}>
