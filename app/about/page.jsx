@@ -16,7 +16,7 @@ export default function AboutPage() {
         </div>
       </div>
       <div className="ff"></div>
-      <div className="sp flx">
+      <div className="sp fdf">
         <p className="df">Backstory</p>
         <div className="limitations-apply"></div>
         <p>
