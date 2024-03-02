@@ -754,7 +754,10 @@ export default function App() {
                   Northern states where our Ideas may not be accepted because we
                   want to influence them.
                 </p>
-                <p>In Michigan, Kyle will hold a rally to encourage our ideas in the North.</p>
+                <p>
+                  In Michigan, Kyle will hold a rally to encourage our ideas in
+                  the North.
+                </p>
               </ModalBody>
               <ModalFooter>
                 <Button color="primary" onPress={onClose}>
@@ -773,14 +776,15 @@ export default function App() {
                 Increasing Wages - Step by Step
               </ModalHeader>
               <ModalBody>
-                <p></p>
-                <p></p>
                 <p>
-                  Since we will not have unemployment checks, we will have a
-                  graduated minimum wage system. This will make our country's
-                  economy better. If the minimum wage is too low our country
-                  will be economically low and the homeless rate will increase.
-                  The graduated minimum wage system will be:
+                  We will be campaigning in North Carolina because it is Kyle’s
+                  home state and he wants to increase the minimum wage so lesser
+                  fortunate families and people won’t have to suffer from
+                  poverty like he did when he was a child.
+                </p>
+                <p>
+                  Kyle will be doing a Rally and a Meet & Greet in North
+                  Carolina to show support for his home state.
                 </p>
               </ModalBody>
               <ModalFooter>
@@ -800,14 +804,13 @@ export default function App() {
                 Increasing Wages - Step by Step
               </ModalHeader>
               <ModalBody>
-                <p></p>
-                <p></p>
+                <p> We will be campaigning here because it is another northern state and it will be very influential to the north. It was also considered a swing state in the last election.
+
+</p>
                 <p>
-                  Since we will not have unemployment checks, we will have a
-                  graduated minimum wage system. This will make our country's
-                  economy better. If the minimum wage is too low our country
-                  will be economically low and the homeless rate will increase.
-                  The graduated minimum wage system will be:
+                  We will do a speech and a rally in Wisconsin
+
+
                 </p>
               </ModalBody>
               <ModalFooter>
