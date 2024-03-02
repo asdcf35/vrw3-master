@@ -747,7 +747,7 @@ export default function App() {
           )}
         </ModalContent>
       </Modal>
-      <Modal isOpen={modalMI.isOpen} onOpenChange={modalAZ.onOpenChange}>
+      <Modal isOpen={modalMI.isOpen} onOpenChange={modalMI.onOpenChange}>
         <ModalContent>
           {(onClose) => (
             <>
