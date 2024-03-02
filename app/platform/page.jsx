@@ -123,29 +123,11 @@ export default function App() {
                 <ModalHeader className="flex flex-col gap-1">
                   Reforming Education
                 </ModalHeader>
-                <ModalBody className="w-[75%]">
+              <ModalBody style={{width: 75%}}>
                   <p>
                     We should use the money we save from backing out of the
                     Middle East to radically improve our education system
                   </p>
-                  <ul>
-                    <li>Having a higher rigor to teachers</li>
-                    <li>Universal Standard</li>
-                    <li>Minimum GPA: 3.5</li>
-                    <li>
-                      Removal of old outdated study techniques in - --- favor
-                      for high-efficiency study techniques like - Feynman Method
-                      and Bloom’s Taxonomy
-                    </li>
-                    <li>
-                      Allow for unique interests to flourish rather than get
-                      squished
-                    </li>
-                    <li>
-                      Culture Problem Solving, instead of Plug and Chug Higher
-                      payment to teachers
-                    </li>
-                  </ul>
                 </ModalBody>
                 <ModalFooter>
                   <Button color="danger" variant="light" onPress={onClose}>
