@@ -116,7 +116,7 @@ export default function App() {
             src="https://habitatbroward.org/wp-content/uploads/2020/01/10-Benefits-Showing-Why-Education-Is-Important-to-Our-Society.jpg"
           />
         </Card>
-      <Modal isOpen={modalE.isOpen} onOpenChange={modalE.onOpenChange}>
+        <Modal isOpen={modalE.isOpen} onOpenChange={modalE.onOpenChange}>
           <ModalContent>
             {(onClose) => (
               <>
@@ -199,22 +199,12 @@ export default function App() {
                 </ModalHeader>
                 <ModalBody>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nullam pulvinar risus non risus hendrerit venenatis.
-                    Pellentesque sit amet hendrerit risus, sed porttitor quam.
-                  </p>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nullam pulvinar risus non risus hendrerit venenatis.
-                    Pellentesque sit amet hendrerit risus, sed porttitor quam.
-                  </p>
-                  <p>
-                    Magna exercitation reprehenderit magna aute tempor cupidatat
-                    consequat elit dolor adipisicing. Mollit dolor eiusmod sunt
-                    ex incididunt cillum quis. Velit duis sit officia eiusmod
-                    Lorem aliqua enim laboris do dolor eiusmod. Et mollit
-                    incididunt nisi consectetur esse laborum eiusmod pariatur
-                    proident Lorem eiusmod et. Culpa deserunt nostrud ad veniam.
+                    The government should require more extensive background
+                    checks, including physiological and psychological checks.
+                    And they should require you to take a course to purchase a
+                    gun. You should have to renew your license every 3 years,
+                    and redo testing. We stand on making guns harder to get but
+                    still accessible for citizens who need them.
                   </p>
                 </ModalBody>
                 <ModalFooter>
