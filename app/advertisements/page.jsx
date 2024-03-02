@@ -748,14 +748,13 @@ export default function App() {
                 Increasing Wages - Step by Step
               </ModalHeader>
               <ModalBody>
-                <p></p>
-                <p></p>
                 <p>
                   We will be campaigning here because it was a swing state in
                   the last election and we want to make sure we travel to
                   Northern states where our Ideas may not be accepted because we
                   want to influence them.
                 </p>
+                <p>In Michigan, Kyle will hold a rally to encourage our ideas in the North.</p>
               </ModalBody>
               <ModalFooter>
                 <Button color="primary" onPress={onClose}>
