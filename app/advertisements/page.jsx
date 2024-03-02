@@ -747,6 +747,38 @@ export default function App() {
           )}
         </ModalContent>
       </Modal>
+      <Modal isOpen={modalMI.isOpen} onOpenChange={modalAZ.onOpenChange}>
+        <ModalContent>
+          {(onClose) => (
+            <>
+              <ModalHeader className="flex flex-col gap-1">
+                Increasing Wages - Step by Step
+              </ModalHeader>
+              <ModalBody>
+                <p>
+
+                </p>
+                <p>
+                  
+                </p>
+                <p>
+                  Since we will not have unemployment checks, we will have a
+                  graduated minimum wage system. This will make our country's
+                  economy better. If the minimum wage is too low our country
+                  will be economically low and the homeless rate will increase.
+                  The graduated minimum wage system will be:
+                </p>
+
+              </ModalBody>
+              <ModalFooter>
+                <Button color="primary" onPress={onClose}>
+                  Close
+                </Button>
+              </ModalFooter>
+            </>
+          )}
+        </ModalContent>
+      </Modal>
     </>
   );
 }

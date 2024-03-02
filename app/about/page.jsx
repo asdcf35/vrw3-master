@@ -1,7 +1,8 @@
 import { title, subtitle } from "@/components/primitives";
 import { Divider } from "@nextui-org/react";
 import "./class.css";
-import video from './video1.mp4'
+
+import VideoPlayer from "@/components/VideoPlayer";
 
 export default function AboutPage() {
   return (
@@ -18,29 +19,28 @@ export default function AboutPage() {
         </div>
       </div>
       <div className="ff"></div>
-      <div className="flx">
-      <div className="sp fdf">
-        <p className="df">Backstory</p>
-        <div className="limitations-apply"></div>
-        <p>
-          Kyle is a great fit to be our candidate. He speaks clearly and
-          confidently and gets the point across. <br />
-          <br />
-          Kyle is from the streets of Sugar Creek, North Carolina. Growing up
-          his family was below the poverty line and unfortunately split and that
-          resulted in him being from a broken home. <br />
-          <br />
-          He has learned to battle through financial and behavioral hardships.
-          This makes him a fearless leader learning to navigate through a world
-          that may have seemed against him from the start. Kyle is very
-          compassionate throughout his works and he loves helping throughout the
-          community to lead other children who may or may not have been through
-          the same difficulties he has to prove that no matter your background
-          things will work out in the end.
-        </p>
-      </div>
-      <source src={video} type="video/mp4"/>
-
+    <div className="flx w-[80%]">
+        <div className="sp fdf">
+          <p className="df">Backstory</p>
+          <div className="limitations-apply"></div>
+          <p>
+            Kyle is a great fit to be our candidate. He speaks clearly and
+            confidently and gets the point across. <br />
+            <br />
+            Kyle is from the streets of Sugar Creek, North Carolina. Growing up
+            his family was below the poverty line and unfortunately split and
+            that resulted in him being from a broken home. <br />
+            <br />
+            He has learned to battle through financial and behavioral hardships.
+            This makes him a fearless leader learning to navigate through a
+            world that may have seemed against him from the start. Kyle is very
+            compassionate throughout his works and he loves helping throughout
+            the community to lead other children who may or may not have been
+            through the same difficulties he has to prove that no matter your
+            background things will work out in the end.
+          </p>
+        </div>
+        <VideoPlayer />
       </div>
     </>
   );
