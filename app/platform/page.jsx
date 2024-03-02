@@ -252,22 +252,7 @@ export default function App() {
                 </ModalHeader>
                 <ModalBody>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nullam pulvinar risus non risus hendrerit venenatis.
-                    Pellentesque sit amet hendrerit risus, sed porttitor quam.
-                  </p>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nullam pulvinar risus non risus hendrerit venenatis.
-                    Pellentesque sit amet hendrerit risus, sed porttitor quam.
-                  </p>
-                  <p>
-                    Magna exercitation reprehenderit magna aute tempor cupidatat
-                    consequat elit dolor adipisicing. Mollit dolor eiusmod sunt
-                    ex incididunt cillum quis. Velit duis sit officia eiusmod
-                    Lorem aliqua enim laboris do dolor eiusmod. Et mollit
-                    incididunt nisi consectetur esse laborum eiusmod pariatur
-                    proident Lorem eiusmod et. Culpa deserunt nostrud ad veniam.
+                    We believe that we need to support and acknowledge the fact that the US is made of immigrants, while also addressing the key issues that are happening right now. We believe that we should build large towns around the border to hold the immigrants while they go through the citizenship process. This is so that they are safe while also going through the process. These towns will be separated from U.S. citizens but visitation will be allowed for immediate family during the process. 
                   </p>
                 </ModalBody>
                 <ModalFooter>
@@ -322,22 +307,7 @@ export default function App() {
                 </ModalHeader>
                 <ModalBody>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nullam pulvinar risus non risus hendrerit venenatis.
-                    Pellentesque sit amet hendrerit risus, sed porttitor quam.
-                  </p>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nullam pulvinar risus non risus hendrerit venenatis.
-                    Pellentesque sit amet hendrerit risus, sed porttitor quam.
-                  </p>
-                  <p>
-                    Magna exercitation reprehenderit magna aute tempor cupidatat
-                    consequat elit dolor adipisicing. Mollit dolor eiusmod sunt
-                    ex incididunt cillum quis. Velit duis sit officia eiusmod
-                    Lorem aliqua enim laboris do dolor eiusmod. Et mollit
-                    incididunt nisi consectetur esse laborum eiusmod pariatur
-                    proident Lorem eiusmod et. Culpa deserunt nostrud ad veniam.
+                    We should back out of the Middle East and encourage other countries to step forward. The U.S. is the highest-paying country for wars in the Middle East. An example was the Isreal-Palestine War. We spent way more money than other countries and we could have saved way more by encouraging others to put forward their fair share.
                   </p>
                 </ModalBody>
                 <ModalFooter>
