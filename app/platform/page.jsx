@@ -116,19 +116,49 @@ export default function App() {
             src="https://habitatbroward.org/wp-content/uploads/2020/01/10-Benefits-Showing-Why-Education-Is-Important-to-Our-Society.jpg"
           />
         </Card>
-        <Modal isOpen={modalE.isOpen} onOpenChange={modalE.onOpenChange}>
+      <Modal isOpen={modalE.isOpen} onOpenChange={modalE.onOpenChange}>
           <ModalContent>
             {(onClose) => (
               <>
                 <ModalHeader className="flex flex-col gap-1">
                   Reforming Education
                 </ModalHeader>
-              <ModalBody style={{width: "75%"}}>
+                <ModalBody>
                   <p>
                     We should use the money we save from backing out of the
                     Middle East to radically improve our education system
                   </p>
-                  
+
+                  <ul className="list-disc">
+                    <li>
+                      <p>Having a higher rigor to teachers</p>
+                    </li>
+                    <li>
+                      <p>Universal Standards</p>
+                    </li>
+                    <li>
+                      <p>Minimum GPA: 3.5</p>
+                    </li>
+                    <li>
+                      <p>
+                        Removal of old outdated study techniques in favor for
+                        high-efficiency study techniques like Feynman Method and
+                        Bloom’s Taxonomy
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Allow for unique interests to flourish rather than get
+                        squished
+                      </p>
+                    </li>
+                    <li>
+                      <p>Culture Problem Solving, instead of Plug and Chug</p>
+                    </li>
+                    <li>
+                      <p>Higher payment to teachers</p>
+                    </li>
+                  </ul>
                 </ModalBody>
                 <ModalFooter>
                   <Button color="danger" variant="light" onPress={onClose}>
