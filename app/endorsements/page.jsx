@@ -230,16 +230,8 @@ export default function App() {
             removeWrapper
             alt="Card example background"
             className="z-0 w-full h-full scale-125 -translate-y-6 object-cover"
-            src="https://www.americanprogress.org/wp-content/uploads/sites/2/2021/10/ImmigrationPolicyPage.jpg"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUU9N11vLAvm0TWEn8UPSFE04idZz198Y9xoDNmdxL-A&s"
           />
-          <CardFooter className="absolute bg-white/30 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
-            <div>
-              <p className="text-black text-tiny">
-                A novel way to solve immigration, one that doesn't compromise on
-                security while not being harsh.
-              </p>
-            </div>
-          </CardFooter>
         </Card>
         <Modal isOpen={modalI.isOpen} onOpenChange={modalI.onOpenChange}>
           <ModalContent>
