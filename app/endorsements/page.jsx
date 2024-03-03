@@ -111,7 +111,7 @@ export default function App() {
             removeWrapper
             alt="Card background"
             className="z-0 w-full h-full object-cover"
-            src="https://habitatbroward.org/wp-content/uploads/2020/01/10-Benefits-Showing-Why-Education-Is-Important-to-Our-Society.jpg"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/LeBron_James_%2851959977144%29_%28cropped2%29.jpg/640px-LeBron_James_%2851959977144%29_%28cropped2%29.jpg"
           />
         </Card>
         <Modal isOpen={modalE.isOpen} onOpenChange={modalE.onOpenChange}>
