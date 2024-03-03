@@ -68,15 +68,15 @@ export default function App() {
                     alt="Card background"
                     className="z-0 object-cover"
                     src="/image4.png"
-                    width="30vh"
+                    width="72%"
                   />
-          <img
-            removeWrapper
-            alt="Card background"
-            className="z-0 w-full h-full object-cover"
-            src="/image5.png"
-            width="30vh"
-          />
+                  <img
+                    removeWrapper
+                    alt="Card background"
+                    className="z-0 object-cover"
+                    src="/image5.png"
+                    width="72%"
+                  />
                 </ModalBody>
                 <ModalFooter>
                   <Button color="primary" onPress={onClose}>
