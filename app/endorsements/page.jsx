@@ -29,16 +29,16 @@ export default function App() {
   return (
     <>
       <h1 className={title()}>Who supports us?</h1>
-      <br></br>
       <p
         style={{ textAlign: "center" }}
         className={subtitle({ class: "mt-2	" })}
       >
-        Endorsers
+        Our Endorsers
       </p>
+      <br></br>
       <div className="max-w-[900px] gap-2 grid grid-cols-12 grid-rows-2 px-8 place-content">
         <Card
-          className="col-span-12 sm:col-span-5 h-[300px]"
+          className="col-span-12 sm:col-span-6 h-[300px]"
           isPressable
           onClick={modalW.onOpen}
         >
@@ -97,7 +97,7 @@ export default function App() {
           </ModalContent>
         </Modal>
         <Card
-          className="col-span-12 sm:col-span-5 h-[300px]"
+          className="col-span-12 sm:col-span-6 h-[300px]"
           isPressable
           onClick={modalE.onOpen}
         >
@@ -171,7 +171,7 @@ export default function App() {
           </ModalContent>
         </Modal>
         <Card
-          className="col-span-12 sm:col-span-5 h-[300px]"
+          className="col-span-12 sm:col-span-6 h-[300px]"
           isPressable
           onClick={modalG.onOpen}
         >
@@ -218,7 +218,7 @@ export default function App() {
           isPressable
           onClick={modalI.onOpen}
           isFooterBlurred
-          className="w-full h-[300px] col-span-12 sm:col-span-5"
+          className="w-full h-[300px] col-span-12 sm:col-span-6"
         >
           <CardHeader className="absolute z-10 top-1 flex-col items-start">
             <p className="text-tiny text-white/60 uppercase font-bold">
