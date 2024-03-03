@@ -43,9 +43,6 @@ export default function App() {
           onClick={modalW.onOpen}
         >
           <CardHeader className="absolute z-10 top-1 flex-col !items-start">
-            <p className="text-tiny text-white/60 uppercase font-bold">
-              Plank #1
-            </p>
             <h4 className="text-white font-medium text-large">Shirt</h4>
           </CardHeader>
           <Image
@@ -60,7 +57,7 @@ export default function App() {
             {(onClose) => (
               <>
                 <ModalHeader className="flex flex-col gap-1">
-                  Increasing Wages - Step by Step
+                  Shirt - $25
                 </ModalHeader>
                 <ModalBody>
                   <img
@@ -93,18 +90,14 @@ export default function App() {
           onClick={modalE.onOpen}
         >
           <CardHeader className="absolute z-10 top-1 flex-col !items-start">
-            <p className="text-tiny text-white/60 uppercase font-bold">
-              Plank #2
-            </p>
-            <h4 className="text-white font-medium text-large">
-              Reforming Education
-            </h4>
+            <h4 className="text-white font-medium text-large">Sticker - $5</h4>
           </CardHeader>
-          <Image
+          <img
             removeWrapper
             alt="Card background"
-            className="z-0 w-full h-full object-cover"
-            src="https://habitatbroward.org/wp-content/uploads/2020/01/10-Benefits-Showing-Why-Education-Is-Important-to-Our-Society.jpg"
+            className="z-0 object-cover"
+            src="/image4.png"
+            width="72%"
           />
         </Card>
         <Modal isOpen={modalE.isOpen} onOpenChange={modalE.onOpenChange}>
