@@ -90,7 +90,7 @@ export default function App() {
           onClick={modalE.onOpen}
         >
           <CardHeader className="absolute z-10 top-1 flex-col !items-start">
-            <h4 className="text-white font-medium text-large">Sticker - $5</h4>
+            <h4 className="text-black font-medium text-large">Sticker - $5</h4>
           </CardHeader>
           <img
             removeWrapper
@@ -104,7 +104,7 @@ export default function App() {
           <ModalContent>
             {(onClose) => (
               <>
-                <ModalHeader className="flex text-black flex-col gap-1">
+                <ModalHeader className="flex flex-col gap-1">
                   Sticker - $5
                 </ModalHeader>
                 <ModalBody>
@@ -112,15 +112,12 @@ export default function App() {
             removeWrapper
             alt="Card background"
             className="z-0 w-full h-full object-cover"
-            src="/image5.png"
+            src="/image1.png"
           />
                 </ModalBody>
                 <ModalFooter>
-                  <Button color="danger" variant="light" onPress={onClose}>
-                    Close
-                  </Button>
                   <Button color="primary" onPress={onClose}>
-                    Action
+                    Close
                   </Button>
                 </ModalFooter>
               </>
