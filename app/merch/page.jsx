@@ -95,8 +95,8 @@ export default function App() {
           <img
             removeWrapper
             alt="Card background"
-            className="z-0 object-cover"
-            src="/image4.png"
+            className="z-0 w-full h-full object-cover"
+            src="/image1.jpg"
             width="72%"
           />
         </Card>
@@ -105,44 +105,15 @@ export default function App() {
             {(onClose) => (
               <>
                 <ModalHeader className="flex flex-col gap-1">
-                  Reforming Education
+                  Sticker - $5
                 </ModalHeader>
                 <ModalBody>
-                  <p>
-                    We should use the money we save from backing out of the
-                    Middle East to radically improve our education system
-                  </p>
-
-                  <ul className="list-disc">
-                    <li>
-                      <p>Having a higher rigor to teachers</p>
-                    </li>
-                    <li>
-                      <p>Universal Standards</p>
-                    </li>
-                    <li>
-                      <p>Minimum GPA: 3.5</p>
-                    </li>
-                    <li>
-                      <p>
-                        Removal of old outdated study techniques in favor for
-                        high-efficiency study techniques like Feynman Method and
-                        Bloom’s Taxonomy
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        Allow for unique interests to flourish rather than get
-                        squished
-                      </p>
-                    </li>
-                    <li>
-                      <p>Culture Problem Solving, instead of Plug and Chug</p>
-                    </li>
-                    <li>
-                      <p>Higher payment to teachers</p>
-                    </li>
-                  </ul>
+          <Image
+            removeWrapper
+            alt="Card background"
+            className="z-0 w-full h-full object-cover"
+            src="/image5.png"
+          />
                 </ModalBody>
                 <ModalFooter>
                   <Button color="danger" variant="light" onPress={onClose}>
