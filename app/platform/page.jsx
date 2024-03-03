@@ -260,7 +260,7 @@ export default function App() {
                     This is so that they are safe while also going through the
                     process. These towns will be separated from U.S. citizens
                     but visitation will be allowed for immediate family during
-                    the process. Each illegal immigrant will need to work 3  
+                    the process.  
                   </p>
                 </ModalBody>
                 <ModalFooter>
@@ -315,17 +315,14 @@ export default function App() {
                     We should back out of the Middle East and encourage other
                     countries to step forward. The U.S. is the highest-paying
                     country for wars in the Middle East. An example was the
-                    Isreal-Palestine War. We spent way more money than other
+                    Israel-Palestine War. We spent way more money than other
                     countries and we could have saved way more by encouraging
                     others to put forward their fair share.
                   </p>
                 </ModalBody>
                 <ModalFooter>
-                  <Button color="danger" variant="light" onPress={onClose}>
-                    Close
-                  </Button>
                   <Button color="primary" onPress={onClose}>
-                    Action
+                    Close
                   </Button>
                 </ModalFooter>
               </>
