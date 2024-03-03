@@ -130,16 +130,13 @@ export default function App() {
           onClick={modalG.onOpen}
         >
           <CardHeader className="absolute z-10 top-1 flex-col !items-start">
-            <p className="text-tiny text-white/60 uppercase font-bold">
-              Plank #3
-            </p>
-            <h4 className="text-white font-medium text-large">Gun Control</h4>
+            <h4 className="text-black font-medium text-large">Socks</h4>
           </CardHeader>
           <Image
             removeWrapper
             alt="Card background"
             className="z-0 w-full h-full object-cover"
-            src="https://img.grouponcdn.com/seocms/ERnU2ng3opVPagNewuguUJwBPc6/1080x648_hero_jpg-1080x648"
+            src="/image3.png"
           />
         </Card>
         <Modal isOpen={modalG.isOpen} onOpenChange={modalG.onOpenChange}>
