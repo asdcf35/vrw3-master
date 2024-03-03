@@ -66,7 +66,7 @@ export default function App() {
                   <img
                     removeWrapper
                     alt="Card background"
-                    className="z-0 w-full h-full object-cover"
+                    className="z-0 object-cover"
                     src="/image4.png"
                     width="30vh"
                   />
