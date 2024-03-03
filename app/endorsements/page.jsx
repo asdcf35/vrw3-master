@@ -34,7 +34,7 @@ export default function App() {
         style={{ textAlign: "center" }}
         className={subtitle({ class: "mt-2	" })}
       >
-        Endorsers(dw, they don't influence us)
+        Endorsers
       </p>
       <div className="max-w-[900px] gap-2 grid grid-cols-12 grid-rows-2 px-8">
         <Card
@@ -44,10 +44,10 @@ export default function App() {
         >
           <CardHeader className="absolute z-10 top-1 flex-col !items-start">
             <p className="text-tiny text-white/60 uppercase font-bold">
-              Plank #1
+              Gun Control
             </p>
             <h4 className="text-white font-medium text-large">
-              Increasing Wages - Step by Step
+              National Rifle Association (NRA)
             </h4>
           </CardHeader>
           <Image
@@ -103,11 +103,9 @@ export default function App() {
         >
           <CardHeader className="absolute z-10 top-1 flex-col !items-start">
             <p className="text-tiny text-white/60 uppercase font-bold">
-              Plank #2
+              Education
             </p>
-            <h4 className="text-white font-medium text-large">
-              Reforming Education
-            </h4>
+            <h4 className="text-white font-medium text-large">Lebron James</h4>
           </CardHeader>
           <Image
             removeWrapper
@@ -179,9 +177,9 @@ export default function App() {
         >
           <CardHeader className="absolute z-10 top-1 flex-col !items-start">
             <p className="text-tiny text-white/60 uppercase font-bold">
-              Plank #3
+              Education & Immigration
             </p>
-            <h4 className="text-white font-medium text-large">Gun Control</h4>
+            <h4 className="text-white font-medium text-large">AFL-CIO</h4>
           </CardHeader>
           <Image
             removeWrapper
@@ -224,9 +222,9 @@ export default function App() {
         >
           <CardHeader className="absolute z-10 top-1 flex-col items-start">
             <p className="text-tiny text-white/60 uppercase font-bold">
-              Plank #4
+              Education
             </p>
-            <h4 className="text-white font-medium text-2xl">Immigration</h4>
+            <h4 className="text-white font-medium text-2xl">Drake</h4>
           </CardHeader>
           <Image
             removeWrapper
