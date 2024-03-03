@@ -185,7 +185,7 @@ export default function App() {
             removeWrapper
             alt="Card background"
             className="z-0 w-full h-full object-cover"
-            src="https://img.grouponcdn.com/seocms/ERnU2ng3opVPagNewuguUJwBPc6/1080x648_hero_jpg-1080x648"
+            src="https://media.npr.org/assets/img/2022/06/16/ap22165568095855_custom-d0aece53a2242a659e4894f98c04474b37ef1f44-s1100-c50.jpg"
           />
         </Card>
         <Modal isOpen={modalG.isOpen} onOpenChange={modalG.onOpenChange}>
