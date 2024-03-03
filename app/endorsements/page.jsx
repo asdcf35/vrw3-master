@@ -111,7 +111,7 @@ export default function App() {
             removeWrapper
             alt="Card background"
             className="z-0 w-full h-full object-cover"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/LeBron_James_%2851959977144%29_%28cropped2%29.jpg/640px-LeBron_James_%2851959977144%29_%28cropped2%29.jpg"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmJUwyc4Bz79C-p15Zi9tWmL15VU_gi1wBbaMH76DdcA&s"
           />
         </Card>
         <Modal isOpen={modalE.isOpen} onOpenChange={modalE.onOpenChange}>
