@@ -210,9 +210,7 @@ export default function App() {
           className="w-full h-[300px] col-span-12 sm:col-span-6"
         >
           <CardHeader className="absolute z-10 top-1 flex-col items-start">
-            <h4 className="text-black font-medium text-xl">
-              Phone Case
-            </h4>
+            <h4 className="text-black font-medium text-xl">Phone Case</h4>
           </CardHeader>
           <Image
             removeWrapper
@@ -229,7 +227,12 @@ export default function App() {
                   Phone Case - $20
                 </ModalHeader>
                 <ModalBody>
-
+                  <Image
+                    removeWrapper
+                    alt="Relaxing app background"
+                    className="z-0 w-full h-full object-cover"
+                    src="/image6.png"
+                  />
                 </ModalBody>
                 <ModalFooter>
                   <Button color="primary" onPress={onClose}>
