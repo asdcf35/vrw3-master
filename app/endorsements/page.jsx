@@ -65,7 +65,14 @@ export default function App() {
                   Increasing Wages - Step by Step
                 </ModalHeader>
                 <ModalBody>
-                  <p>We chose this group because the NRA continues to be the leader in firearm education. The NRA offers over 12,500 certified instructors that train about 100,000 gun owners a year. This ties in with our policy on gun control since we believe that gun owners and potential gun owners need to be better educated about firearms than they are now</p>
+                  <p>
+                    We chose this group because the NRA continues to be the
+                    leader in firearm education. The NRA offers over 12,500
+                    certified instructors that train about 100,000 gun owners a
+                    year. This ties in with our policy on gun control since we
+                    believe that gun owners and potential gun owners need to be
+                    better educated about firearms than they are now
+                  </p>
                 </ModalBody>
                 <ModalFooter>
                   <Button color="primary" onPress={onClose}>
@@ -99,12 +106,17 @@ export default function App() {
             {(onClose) => (
               <>
                 <ModalHeader className="flex flex-col gap-1">
-                  Reforming Education
+                  AFL-CIO
                 </ModalHeader>
                 <ModalBody>
                   <p>
-                    Lebron is one of our celebrity endorsers because he has made countless donations to education. For example, Lebron James opened a family foundation for the impoverished and encouraged the youth to explore their interests. Lebron has also made it easier for each person to obtain an education with the best quality possible.
-
+                    The AFL-CIO is one of our interest groups because they
+                    promote wages that allow the members of our society to
+                    support themselves and their loved ones. Our party wishes
+                    for every person to support themselves independently. The
+                    AFL-CIO also agrees with our immigration policy. Ourselves
+                    and the AFL-CIO also believe immigration will benefit the
+                    current labor standards. 
                   </p>
                 </ModalBody>
                 <ModalFooter>
@@ -138,17 +150,12 @@ export default function App() {
           <ModalContent>
             {(onClose) => (
               <>
-                <ModalHeader className="flex flex-col gap-1">
-                  Modal Title
-                </ModalHeader>
+                <ModalHeader className="flex flex-col gap-1"></ModalHeader>
                 <ModalBody>
                   <p>
-                    The government should require more extensive background
-                    checks, including physiological and psychological checks.
-                    And they should require you to take a course to purchase a
-                    gun. You should have to renew your license every 3 years,
-                    and redo testing. We stand on making guns harder to get but
-                    still accessible for citizens who need them.
+                    Drake is one of our celebrity endorsers because he stands for our education platform. He has donated to the Jamaican Learning Center, a Pennsylvania high school, and other educational facilities. He believes in funding the school to help out with special additions to make the school better. He has donated over 1 million to other schools throughout the country. Drake is one of our endorsers because he cares about children's education.
+
+
                   </p>
                 </ModalBody>
                 <ModalFooter>
