@@ -173,18 +173,15 @@ export default function App() {
 
             <h4 className="text-white font-medium text-2xl">Bumper Stickers</h4>
           </CardHeader>
+          
+          <CardFooter className="absolute bg-white/30 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
+            <div>
           <Image
             removeWrapper
             alt="Card example background"
             className="z-0 w-full h-full scale-125 -translate-y-6 object-cover"
             src="https://www.americanprogress.org/wp-content/uploads/sites/2/2021/10/ImmigrationPolicyPage.jpg"
-          />
-          <CardFooter className="absolute bg-white/30 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
-            <div>
-              <p className="text-black text-tiny">
-                A novel way to solve immigration, one that doesn't compromise on
-                security while not being harsh.
-              </p>
+          />                  
             </div>
           </CardFooter>
         </Card>
@@ -193,20 +190,10 @@ export default function App() {
             {(onClose) => (
               <>
                 <ModalHeader className="flex flex-col gap-1">
-                  Immigration
+                  Bumper Stickers - $8
                 </ModalHeader>
                 <ModalBody>
-                  <p>
-                    We believe that we need to support and acknowledge the fact
-                    that the US is made of immigrants, while also addressing the
-                    key issues that are happening right now. We believe that we
-                    should build large towns around the border to hold the
-                    immigrants while they go through the citizenship process.
-                    This is so that they are safe while also going through the
-                    process. These towns will be separated from U.S. citizens
-                    but visitation will be allowed for immediate family during
-                    the process.
-                  </p>
+
                 </ModalBody>
                 <ModalFooter>
                   <Button color="primary" onPress={onClose}>
