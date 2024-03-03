@@ -108,12 +108,12 @@ export default function App() {
                   Sticker - $5
                 </ModalHeader>
                 <ModalBody>
-          <Image
-            removeWrapper
-            alt="Card background"
-            className="z-0 w-full h-full object-cover"
-            src="/image1.png"
-          />
+                  <Image
+                    removeWrapper
+                    alt="Card background"
+                    className="z-0 w-full h-full object-cover"
+                    src="/image1.png"
+                  />
                 </ModalBody>
                 <ModalFooter>
                   <Button color="primary" onPress={onClose}>
@@ -144,17 +144,15 @@ export default function App() {
             {(onClose) => (
               <>
                 <ModalHeader className="flex flex-col gap-1">
-                  Modal Title
+                  Socks - $7
                 </ModalHeader>
                 <ModalBody>
-                  <p>
-                    The government should require more extensive background
-                    checks, including physiological and psychological checks.
-                    And they should require you to take a course to purchase a
-                    gun. You should have to renew your license every 3 years,
-                    and redo testing. We stand on making guns harder to get but
-                    still accessible for citizens who need them.
-                  </p>
+                  <Image
+                    removeWrapper
+                    alt="Card background"
+                    className="z-0 w-full h-full object-cover"
+                    src="/image3.png"
+                  />
                 </ModalBody>
                 <ModalFooter>
                   <Button color="primary" onPress={onClose}>
@@ -172,10 +170,8 @@ export default function App() {
           className="w-full h-[300px] col-span-12 sm:col-span-5"
         >
           <CardHeader className="absolute z-10 top-1 flex-col items-start">
-            <p className="text-tiny text-white/60 uppercase font-bold">
-              Plank #4
-            </p>
-            <h4 className="text-white font-medium text-2xl">Immigration</h4>
+
+            <h4 className="text-white font-medium text-2xl">Bumper Stickers</h4>
           </CardHeader>
           <Image
             removeWrapper
