@@ -65,27 +65,7 @@ export default function App() {
                   Increasing Wages - Step by Step
                 </ModalHeader>
                 <ModalBody>
-                  <p>
-                    We want wages to be able to support everyone financially,
-                    but we will not use unemployment checks anymore
-                  </p>
-                  <p>
-                    Unemployment checks are not very conducive for a thriving
-                    economy.
-                  </p>
-                  <p>
-                    Since we will not have unemployment checks, we will have a
-                    graduated minimum wage system. This will make our country's
-                    economy better. If the minimum wage is too low our country
-                    will be economically low and the homeless rate will
-                    increase. The graduated minimum wage system will be:
-                  </p>
-                  <ul>
-                    <li>$7.25 working 13-15</li>
-                    <li>$8.50 working 16- 18</li>
-                    <li>$10 working 18-21 (or not living with parents)</li>
-                    <li>$13 working 21 and older</li>
-                  </ul>
+                  <p>We chose this group because the NRA continues to be the leader in firearm education. The NRA offers over 12,500 certified instructors that train about 100,000 gun owners a year. This ties in with our policy on gun control since we believe that gun owners and potential gun owners need to be better educated about firearms than they are now</p>
                 </ModalBody>
                 <ModalFooter>
                   <Button color="primary" onPress={onClose}>
@@ -123,45 +103,11 @@ export default function App() {
                 </ModalHeader>
                 <ModalBody>
                   <p>
-                    We should use the money we save from backing out of the
-                    Middle East to radically improve our education system
-                  </p>
+                    Lebron is one of our celebrity endorsers because he has made countless donations to education. For example, Lebron James opened a family foundation for the impoverished and encouraged the youth to explore their interests. Lebron has also made it easier for each person to obtain an education with the best quality possible.
 
-                  <ul className="list-disc">
-                    <li>
-                      <p>Having a higher rigor to teachers</p>
-                    </li>
-                    <li>
-                      <p>Universal Standards</p>
-                    </li>
-                    <li>
-                      <p>Minimum GPA: 3.5</p>
-                    </li>
-                    <li>
-                      <p>
-                        Removal of old outdated study techniques in favor for
-                        high-efficiency study techniques like Feynman Method and
-                        Bloom’s Taxonomy
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        Allow for unique interests to flourish rather than get
-                        squished
-                      </p>
-                    </li>
-                    <li>
-                      <p>Culture Problem Solving, instead of Plug and Chug</p>
-                    </li>
-                    <li>
-                      <p>Higher payment to teachers</p>
-                    </li>
-                  </ul>
+                  </p>
                 </ModalBody>
                 <ModalFooter>
-                  <Button color="danger" variant="light" onPress={onClose}>
-                    Close
-                  </Button>
                   <Button color="primary" onPress={onClose}>
                     Action
                   </Button>
