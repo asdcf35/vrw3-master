@@ -28,13 +28,13 @@ export default function App() {
 
   return (
     <>
-      <h1 className={title()}>Where we stand</h1>
+      <h1 className={title()}>Who supports us?</h1>
       <br></br>
       <p
         style={{ textAlign: "center" }}
         className={subtitle({ class: "mt-2	" })}
       >
-        Our Party Platform
+        Endorsers(dw, they don't influence us)
       </p>
       <div className="max-w-[900px] gap-2 grid grid-cols-12 grid-rows-2 px-8">
         <Card
