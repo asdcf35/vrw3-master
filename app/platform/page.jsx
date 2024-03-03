@@ -260,7 +260,7 @@ export default function App() {
                     This is so that they are safe while also going through the
                     process. These towns will be separated from U.S. citizens
                     but visitation will be allowed for immediate family during
-                    the process. Each person 
+                    the process. Each illegal immigrant will need to work 3  
                   </p>
                 </ModalBody>
                 <ModalFooter>
