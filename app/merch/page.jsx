@@ -244,14 +244,16 @@ export default function App() {
           </ModalContent>
         </Modal>
       </div>
-      <br/><br />
+      <br />
+      <br />
       <div className="w-[70ch] text-center flex flex-col align-center">
         <p className="my-5 text-2xl">Where is Our Money going?</p>
         <div className="limitations-apply"></div>
         <p>
           All of our proceeds will be donated to our immigration towns
           surrounding the border to ensure they all can live in stable
-          conditions while awaiting their citizenship to be approved, as well as programs that will support our mission.
+          conditions while awaiting their citizenship to be approved, as well as
+          programs that will support our mission.
         </p>
       </div>
     </>
