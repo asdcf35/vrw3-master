@@ -36,9 +36,9 @@ export default function App() {
       >
         Endorsers
       </p>
-      <div className="max-w-[900px] gap-2 grid grid-cols-12 grid-rows-2 px-8">
+      <div className="max-w-[900px] gap-2 grid grid-cols-12 grid-rows-2 px-8 align-items">
         <Card
-          className="col-span-12 sm:col-span-4 h-[300px]"
+          className="col-span-12 sm:col-span-5 h-[300px]"
           isPressable
           onClick={modalW.onOpen}
         >
@@ -97,7 +97,7 @@ export default function App() {
           </ModalContent>
         </Modal>
         <Card
-          className="col-span-12 sm:col-span-4 h-[300px]"
+          className="col-span-12 sm:col-span-5 h-[300px]"
           isPressable
           onClick={modalE.onOpen}
         >
@@ -171,7 +171,7 @@ export default function App() {
           </ModalContent>
         </Modal>
         <Card
-          className="col-span-12 sm:col-span-4 h-[300px]"
+          className="col-span-12 sm:col-span-5 h-[300px]"
           isPressable
           onClick={modalG.onOpen}
         >
