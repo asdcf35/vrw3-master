@@ -28,13 +28,13 @@ export default function App() {
 
   return (
     <>
-      <h1 className={title()}>Where we stand</h1>
+      <h1 className={title()}>Buy Stuff, to Support Us!</h1>
       <br></br>
       <p
         style={{ textAlign: "center" }}
         className={subtitle({ class: "mt-2	" })}
       >
-        Our Party Platform
+        Our Merchandise
       </p>
       <div className="max-w-[900px] gap-2 grid grid-cols-12 grid-rows-2 px-8">
         <Card
@@ -47,14 +47,14 @@ export default function App() {
               Plank #1
             </p>
             <h4 className="text-white font-medium text-large">
-              Increasing Wages - Step by Step
+              Shirt
             </h4>
           </CardHeader>
           <Image
             removeWrapper
             alt="Card background"
             className="z-0 w-full h-full object-cover"
-            src="https://cdn.shopify.com/s/files/1/2643/9914/files/5maYumusplHiebPzshiFlmeoc8vlo5qX1632332951.jpg?v=1632951145"
+            src="/image4.png"
           />
         </Card>
         <Modal isOpen={modalW.isOpen} onOpenChange={modalW.onOpenChange}>
