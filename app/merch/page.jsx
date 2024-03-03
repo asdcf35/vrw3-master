@@ -104,7 +104,7 @@ export default function App() {
           <ModalContent>
             {(onClose) => (
               <>
-                <ModalHeader className="flex flex-col gap-1">
+                <ModalHeader className="flex text-black flex-col gap-1">
                   Sticker - $5
                 </ModalHeader>
                 <ModalBody>
