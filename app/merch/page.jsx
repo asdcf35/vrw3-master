@@ -112,7 +112,7 @@ export default function App() {
                     removeWrapper
                     alt="Card background"
                     className="z-0 w-full h-full object-cover"
-                    src="/image1.png"
+                    src="/image1.jpg"
                   />
                 </ModalBody>
                 <ModalFooter>
