@@ -195,7 +195,7 @@ export default function App() {
             {(onClose) => (
               <>
                 <ModalHeader className="flex flex-col gap-1">
-                  Modal Title
+                  Gun Control
                 </ModalHeader>
                 <ModalBody>
                   <p>
