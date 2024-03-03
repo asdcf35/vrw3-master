@@ -63,18 +63,19 @@ export default function App() {
                   Increasing Wages - Step by Step
                 </ModalHeader>
                 <ModalBody>
-                  <Image
+                  <img
                     removeWrapper
                     alt="Card background"
                     className="z-0 w-full h-full object-cover"
                     src="/image4.png"
                     width="30vh"
                   />
-          <Image
+          <img
             removeWrapper
             alt="Card background"
             className="z-0 w-full h-full object-cover"
             src="/image5.png"
+            width="30vh"
           />
                 </ModalBody>
                 <ModalFooter>
