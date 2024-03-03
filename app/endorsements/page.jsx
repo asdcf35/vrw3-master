@@ -36,7 +36,7 @@ export default function App() {
       >
         Endorsers
       </p>
-      <div className="max-w-[900px] gap-2 grid grid-cols-12 grid-rows-2 px-8 align-items">
+      <div className="max-w-[900px] gap-2 grid grid-cols-12 grid-rows-2 px-8 place-content">
         <Card
           className="col-span-12 sm:col-span-5 h-[300px]"
           isPressable
