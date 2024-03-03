@@ -54,7 +54,7 @@ export default function App() {
             removeWrapper
             alt="Card background"
             className="z-0 w-full h-full object-cover"
-            src="https://cdn.shopify.com/s/files/1/2643/9914/files/5maYumusplHiebPzshiFlmeoc8vlo5qX1632332951.jpg?v=1632951145"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1SlwqVnkl1LBMQniXt4LR-64oc9np1rJfPQ&s"
           />
         </Card>
         <Modal isOpen={modalW.isOpen} onOpenChange={modalW.onOpenChange}>
