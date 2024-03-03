@@ -260,7 +260,7 @@ export default function App() {
                     This is so that they are safe while also going through the
                     process. These towns will be separated from U.S. citizens
                     but visitation will be allowed for immediate family during
-                    the process.  
+                    the process.
                   </p>
                 </ModalBody>
                 <ModalFooter>
@@ -308,7 +308,7 @@ export default function App() {
             {(onClose) => (
               <>
                 <ModalHeader className="flex flex-col gap-1">
-                  Modal Title
+                  The US checklist for better security
                 </ModalHeader>
                 <ModalBody>
                   <p>
