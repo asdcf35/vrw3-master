@@ -46,9 +46,7 @@ export default function App() {
             <p className="text-tiny text-white/60 uppercase font-bold">
               Plank #1
             </p>
-            <h4 className="text-white font-medium text-large">
-              Shirt
-            </h4>
+            <h4 className="text-white font-medium text-large">Shirt</h4>
           </CardHeader>
           <Image
             removeWrapper
@@ -65,27 +63,19 @@ export default function App() {
                   Increasing Wages - Step by Step
                 </ModalHeader>
                 <ModalBody>
-                  <p>
-                    We want wages to be able to support everyone financially,
-                    but we will not use unemployment checks anymore
-                  </p>
-                  <p>
-                    Unemployment checks are not very conducive for a thriving
-                    economy.
-                  </p>
-                  <p>
-                    Since we will not have unemployment checks, we will have a
-                    graduated minimum wage system. This will make our country's
-                    economy better. If the minimum wage is too low our country
-                    will be economically low and the homeless rate will
-                    increase. The graduated minimum wage system will be:
-                  </p>
-                  <ul>
-                    <li>$7.25 working 13-15</li>
-                    <li>$8.50 working 16- 18</li>
-                    <li>$10 working 18-21 (or not living with parents)</li>
-                    <li>$13 working 21 and older</li>
-                  </ul>
+                  <Image
+                    removeWrapper
+                    alt="Card background"
+                    className="z-0 w-full h-full object-cover"
+                    src="/image4.png"
+                    width="30vh"
+                  />
+          <Image
+            removeWrapper
+            alt="Card background"
+            className="z-0 w-full h-full object-cover"
+            src="/image5.png"
+          />
                 </ModalBody>
                 <ModalFooter>
                   <Button color="primary" onPress={onClose}>
