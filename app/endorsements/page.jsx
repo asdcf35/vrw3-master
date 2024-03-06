@@ -62,7 +62,7 @@ export default function App() {
             {(onClose) => (
               <>
                 <ModalHeader className="flex flex-col gap-1">
-                  Increasing Wages - Step by Step
+              National Rifle Association (NRA)
                 </ModalHeader>
                 <ModalBody>
                   <p>
@@ -110,9 +110,12 @@ export default function App() {
                 </ModalHeader>
                 <ModalBody>
                   <p>
-                    Lebron is one of our celebrity endorsers because he has made countless donations to education. For example, Lebron James opened a family foundation for the impoverished and encouraged the youth to explore their interests. Lebron has also made it easier for each person to obtain an education with the best quality possible.
-
-
+                    Lebron is one of our celebrity endorsers because he has made
+                    countless donations to education. For example, Lebron James
+                    opened a family foundation for the impoverished and
+                    encouraged the youth to explore their interests. Lebron has
+                    also made it easier for each person to obtain an education
+                    with the best quality possible.
                   </p>
                 </ModalBody>
                 <ModalFooter>
@@ -146,11 +149,18 @@ export default function App() {
           <ModalContent>
             {(onClose) => (
               <>
-                <ModalHeader className="flex flex-col gap-1">AFL-CIO</ModalHeader>
+                <ModalHeader className="flex flex-col gap-1">
+                  AFL-CIO
+                </ModalHeader>
                 <ModalBody>
                   <p>
-
-The AFL-CIO is one of our interest groups because they promote wages that allow the members of our society to support themselves and their loved ones. Our party wishes for every person to support themselves independently. The AFL-CIO also agrees with our immigration policy. Ourselves and the AFL-CIO also believe immigration will benefit the current labor standards.
+                    The AFL-CIO is one of our interest groups because they
+                    promote wages that allow the members of our society to
+                    support themselves and their loved ones. Our party wishes
+                    for every person to support themselves independently. The
+                    AFL-CIO also agrees with our immigration policy. Ourselves
+                    and the AFL-CIO also believe immigration will benefit the
+                    current labor standards.
                   </p>
                 </ModalBody>
                 <ModalFooter>
@@ -185,20 +195,17 @@ The AFL-CIO is one of our interest groups because they promote wages that allow 
           <ModalContent>
             {(onClose) => (
               <>
-                <ModalHeader className="flex flex-col gap-1">
-                  Immigration
-                </ModalHeader>
+                <ModalHeader className="flex flex-col gap-1">Drake</ModalHeader>
                 <ModalBody>
                   <p>
-                    We believe that we need to support and acknowledge the fact
-                    that the US is made of immigrants, while also addressing the
-                    key issues that are happening right now. We believe that we
-                    should build large towns around the border to hold the
-                    immigrants while they go through the citizenship process.
-                    This is so that they are safe while also going through the
-                    process. These towns will be separated from U.S. citizens
-                    but visitation will be allowed for immediate family during
-                    the process.
+                    Drake is one of our celebrity endorsers because he stands
+                    for our education platform. He has donated to the Jamaican
+                    Learning Center, a Pennsylvania high school, and other
+                    educational facilities. He believes in funding the school to
+                    help out with special additions to make the school better.
+                    He has donated over 1 million to other schools throughout
+                    the country. Drake is one of our endorsers because he cares
+                    about children's education.
                   </p>
                 </ModalBody>
                 <ModalFooter>
