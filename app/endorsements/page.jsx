@@ -153,9 +153,8 @@ export default function App() {
                 <ModalHeader className="flex flex-col gap-1"></ModalHeader>
                 <ModalBody>
                   <p>
-                    Drake is one of our celebrity endorsers because he stands for our education platform. He has donated to the Jamaican Learning Center, a Pennsylvania high school, and other educational facilities. He believes in funding the school to help out with special additions to make the school better. He has donated over 1 million to other schools throughout the country. Drake is one of our endorsers because he cares about children's education.
 
-
+The AFL-CIO is one of our interest groups because they promote wages that allow the members of our society to support themselves and their loved ones. Our party wishes for every person to support themselves independently. The AFL-CIO also agrees with our immigration policy. Ourselves and the AFL-CIO also believe immigration will benefit the current labor standards.
                   </p>
                 </ModalBody>
                 <ModalFooter>
