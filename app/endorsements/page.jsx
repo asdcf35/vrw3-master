@@ -106,17 +106,13 @@ export default function App() {
             {(onClose) => (
               <>
                 <ModalHeader className="flex flex-col gap-1">
-                  AFL-CIO
+                  Lebron James
                 </ModalHeader>
                 <ModalBody>
                   <p>
-                    The AFL-CIO is one of our interest groups because they
-                    promote wages that allow the members of our society to
-                    support themselves and their loved ones. Our party wishes
-                    for every person to support themselves independently. The
-                    AFL-CIO also agrees with our immigration policy. Ourselves
-                    and the AFL-CIO also believe immigration will benefit the
-                    current labor standards. 
+                    Lebron is one of our celebrity endorsers because he has made countless donations to education. For example, Lebron James opened a family foundation for the impoverished and encouraged the youth to explore their interests. Lebron has also made it easier for each person to obtain an education with the best quality possible.
+
+
                   </p>
                 </ModalBody>
                 <ModalFooter>
@@ -150,7 +146,7 @@ export default function App() {
           <ModalContent>
             {(onClose) => (
               <>
-                <ModalHeader className="flex flex-col gap-1"></ModalHeader>
+                <ModalHeader className="flex flex-col gap-1">AFL-CIO</ModalHeader>
                 <ModalBody>
                   <p>
 
